@@ -1,0 +1,105 @@
+
+.background{
+  background-image:url(https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+
+}
+
+header{
+
+}
+
+nav ul{
+  width: auto;
+  height: auto;
+  background-color: silver;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+li a{
+  color: black;
+}
+
+h1{
+  font-size: 45px;
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+
+}
+
+h2{
+  margin: 30px;
+}
+
+p{
+  font-size: 18px;
+}
+
+.bonjour{
+
+  font-size: 35px;
+}
+.presentation
+{
+width: 500px;
+text-align: justify;
+float: right;
+margin-right: 300px;
+}
+
+.description {
+    width: 350px;
+    text-align: justify;
+    float: right;
+    margin-right: 200px;
+    margin-top: 45px;
+     /* Marge intérieure de 12px */
+}
+.left{
+  float:left;
+}
+
+.right{
+  float:right;
+}
+
+.chambres{
+  width: 600px;
+  font-size: 25px;
+  margin-left: 20px;
+
+}
+.duo{
+  float:right;
+  margin-bottom:200px;
+}
+
+.monuments{
+  margin-left: 100px;
+}
+.restaurants{
+  margin-left: 250px;
+}
+
+img{
+  border: 5px solid black;
+}
+
+.left{
+margin-left: 150px;
+}
+
+.Right{
+margin-right: 40px;
+}
+.tarifs{
+
+}
+
+.formulaire{
+
+}
+footer {
+
+}

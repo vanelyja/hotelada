@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <!-- En-tête de la page -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/hotelada.css">
+
+    <title>ada</title>
+  </head>
+  <body class="background">
+      <!-- Corps de la page -->
+      <header>
+
+
+      <h1>Hôtel Ada réservation</h1>
+       <nav>
+          <ul>
+              <li><a href="index.html"> Acceuil</a></li>
+              <li><a href="chambres.html"> chambres</a></li>
+              <li><a href="services.html"> services</a></li>
+              <li><a href="reservation.html"> reservation</a></li>
+              <li><a href="quartier.html"> quartier</a></li>
+              <li><a href="contact.html"> contact</a></li>
+
+          </ul>
+       </nav>
+         </header>
+                   <br><br><br><br>
+
+<section class=tarifs>
+        <h2>Taris des chambres</h2>
+        <br><br><br>
+
+              <table>
+                        <thead>
+                          <tr>
+                          <th>chambres 1</th>
+                          <th>chambres 2</th>
+                          <th>chambres 3</th>
+                          </tr>
+                          </thead>
+
+                        <tfoot>
+                          <tr>
+                            <td>280€</td>
+                            <td>190€</td>
+                            <td>180€</td>
+                            <td>350€</td>
+
+                          </tr>
+                        </tfoot>
+
+                        <tbody>
+                        <tr>
+                          <td>chambres classiques</td>
+                          <td>chambres double</td>
+                          <td>lits jumeaux</td>
+                          <td>suites</td>
+
+                        </tr>
+                        </tbody>
+                        </table>
+            </section>
+
+                      <br><br><br><br>
+
+
+            <form class="formulaire" action="index.html" method="post">
+                      <legend>séjour du: </legend>
+                           <select class="duree">
+                           <input type="date" name="" value="" placeholder="date">
+                           <br>
+                           <legend>au:</legend>
+                           <input type="date" name="" value="" placeholder="date">
+                           <br>
+                           </select>
+
+                           <br>
+                  <h3>Civilité</h3>
+                           <select class="civilite" name="">
+                                   <option value="">femme</option>
+                                   <option value="">homme</option>
+                                   <option value="">non binaire</option>
+                           </select>
+
+                                 <br>
+                  <h3>Coordonnées</h3>
+                            <input type="text" name="" value="" placeholder="nom"><br>
+                            <input type="text" name="" value="" placeholder="prenom"><br>
+                          	<input type="tel" name="" value="" placeholder="telephone"><br>
+                          	<input type="email" name="" value="" placeholder="email"><br>
+
+                            <br>
+                  <h3>Chambre</3>
+                            <select>
+                                      <option value="">chambre simple</option>
+                                      <option value="">chambre double</option>
+                                      <option value="">lit jumeaux</option>
+                                      <option value="">suite</option>
+                            </select>
+
+                            <h2>Paiement</h2>
+
+        					<h3>Informations CB</h3>
+        						<ul>
+        							<li>
+        								<legend>Type de carte bancaire</legend>
+        								<ol>
+        									<li><input id=visa name=type_de_carte type=radio><label for=visa>VISA</label></li>
+        									<li><input id=amex name=type_de_carte type=radio><label for=amex>AmEx</label></li>
+        									<li><input id=mastercard name=type_de_carte type=radio><label for=mastercard>Mastercard</label></li>
+        								</ol>
+        							</li>
+        							<li><label for=numero_de_carte>N° de carte</label><input id=numero_de_carte name=numero_de_carte type=number required></li>
+        							<li><label for=date_de_validite>Date de validité</label><input type="month" name="start" min="2020-03" value="2022-05"></li>
+        							<li><label for=securite>Code sécurité</label><input id=securite name=securite type=number placeholder="3 chiffres au dos" required></li>
+        							<li><label for=nom_porteur>Nom du porteur</label><input id=nom_porteur name=nom_porteur type=text placeholder="Même nom que sur la carte"></li>
+        						</ul>
+
+          <br>
+          <textarea name="name" rows="8" cols="50"placeholder="Demande/suggestion"></textarea><br>
+        <input type="submit" name="" value="envoyer"><br>
+
+          </form>
+
+
+
+
+
+
+
+                        
+</html>
