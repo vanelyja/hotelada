@@ -90,9 +90,30 @@ img{
 margin-left: 150px;
 }
 
+
 .Right{
 margin-right: 40px;
 }
+
+.window
+{
+  display: flex;
+  justify-content: flex-end;
+  background-color: yellow;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+}
+
+
+button{
+
+  cursor:pointer;
+}
+
+
+
 .tarifs{
 
 }

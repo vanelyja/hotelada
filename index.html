@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="assets/css/hotelada.css">
 
-    <title>ada</title>
+    <title>hotelada</title>
   </head>
   <body class="background">
     <!-- Corps de la page -->
@@ -41,7 +41,19 @@ d’un espace de remise en forme, deux hammams et 2 cabines de soins. Un bar cos
       </aside>
     </section>
 
+    <div class="container-fluid">
+    <section class="window">
+      <p>Cliquez sur "J'accepte" pour accepter l'utilisation des cookies</p>
+      <button type="button" onclick="alert('êtes vous sure?')"class="btn btn-light">Refuser</button>
+      <button type="button" onclick="document.querySelector('.window').remove()" class="btn btn-light">Accepter</button>
 
+    </section>
+  </div>
+
+  <script>
+  document.querySelector('.accept-button').addEventListener('click',function(){alert('Bienvenue aux descodeuses!');});
+</script>
+\
 
   </body>
 </html>
