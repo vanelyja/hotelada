@@ -10,14 +10,17 @@ header{
 
 nav ul{
   width: auto;
-  height: auto;
+  height: 50px;
   background-color: silver;
   color: black;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
 }
-li a{
+li, a{
   color: black;
+  list-style:none;
 }
 
 h1{
@@ -99,16 +102,18 @@ margin-right: 40px;
 {
   display: flex;
   justify-content: flex-end;
-  background-color: yellow;
+  align-items: center;
+  background-color: silver;
+  border-radius: 5px;
   bottom: 0;
   position: fixed;
-  width: 100%;
+  width: 1410px;
   margin: 0;
 }
 
 
-button{
 
+button{
   cursor:pointer;
 }
 
