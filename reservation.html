@@ -29,7 +29,7 @@
 
 <section class=tarifs>
         <h2>Taris des chambres</h2>
-        <br><br><br>
+        <br>
 
               <table>
                         <thead>
@@ -63,34 +63,30 @@
             </section>
 
                       <br><br><br><br>
+             <div class="reservation">
 
 
+                <h2>Réservation</h2>
+                <div>
             <form class="formulaire" action="index.html" method="post">
                       <legend>séjour du: </legend>
                            <select class="duree">
                            <input type="date" name="" value="" placeholder="date">
-                           <br>
                            <legend>au:</legend>
                            <input type="date" name="" value="" placeholder="date">
-                           <br>
                            </select>
 
-                           <br>
                   <h3>Civilité</h3>
                            <select class="civilite" name="">
                                    <option value="">femme</option>
                                    <option value="">homme</option>
                                    <option value="">non binaire</option>
                            </select>
-
-                                 <br>
                   <h3>Coordonnées</h3>
-                            <input type="text" name="" value="" placeholder="nom"><br>
-                            <input type="text" name="" value="" placeholder="prenom"><br>
-                          	<input type="tel" name="" value="" placeholder="telephone"><br>
-                          	<input type="email" name="" value="" placeholder="email"><br>
-
-                            <br>
+                            <input type="text" name="" value="" placeholder="nom">
+                            <input type="text" name="" value="" placeholder="prenom">
+                          	<input type="tel" name="" value="" placeholder="telephone">
+                          	<input type="email" name="" value="" placeholder="email">
                   <h3>Chambre</3>
                             <select>
                                       <option value="">chambre simple</option>
@@ -99,8 +95,10 @@
                                       <option value="">suite</option>
                             </select>
 
-                            <h2>Paiement</h2>
 
+                   </div>
+                            <h2>Paiement</h2>
+              <div class="formulaire">
         					<h3>Informations CB</h3>
         						<ul>
         							<li>
@@ -117,13 +115,14 @@
         							<li><label for=nom_porteur>Nom du porteur</label><input id=nom_porteur name=nom_porteur type=text placeholder="Même nom que sur la carte"></li>
         						</ul>
 
+          <textarea name="name" rows="3" cols="30"placeholder="Demande/suggestion"></textarea>
           <br>
-          <textarea name="name" rows="8" cols="50"placeholder="Demande/suggestion"></textarea><br>
-        <input type="submit" name="" value="envoyer"><br>
+        <input type="submit" name="" value="envoyer">
 
           </form>
+            </div>
 
-
+       </div>
 
 
 
